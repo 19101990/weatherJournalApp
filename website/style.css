@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(194, 255, 182);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Reset style for HTML element on active to have no border*/
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+/* Style for Placeholder Text*/
+
+::placeholder { /* Firefox, Chrome, Opera */ 
+  color: #333333;
+} 
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+  color: #333333;
+} 
+
+::-ms-input-placeholder { /* Microsoft Edge */ 
+  color: #333333;
+} 
+
+
+/* CUSTOM STYLES */
+
+.headline {
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+input, textarea {
+  display: block;
+  width: 90%;
+  background: rgba(193, 255, 201, 0.541);;
+  /* border-radius: 5px; */
+  padding: .5em 1em;
+  margin-top: .25em;
+  border: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+label {
+  font-family: Oswald, sans-serif;
+}
+
+.holder {
+  margin-top: 1em;
+}
+
+.entry {
+  background: rgba(151, 151, 151, 0.247);
+  padding: 1em 2em;
+  font-family: Oswald, sans-serif;
+}
+
+.entry .title {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+#entryHolder {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+#app {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.weather-form, .entry {
+  min-width: 400px;
+}
+
+.weather-form {
+  background: rgba(0, 0, 0, 0.336);
+  padding: 1em 2em;
+}
+
+.shadow {
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
