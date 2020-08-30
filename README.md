@@ -1,7 +1,7 @@
-##Weather App
+## Weather App
 That's the third project of Udacity's Front End Developer nanodegree. The app connects you to Openweather API and pulls current weather for you.
 
-###How to start:
+### How to start:
 Clone the code to your computer. Open terminal and go to the root folder. When there, type:
 
 ```
